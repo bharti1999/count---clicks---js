@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="countClicks.css">
+</head>
+<body>
+	<div id="box">
+		
+	</div>
+	<p>Box clicked <span id="change"> 0 </span> times</p>
+
+	<script type="text/javascript">
+		var count =1;
+		var example = document.getElementById('box');
+		example.addEventListener('click',function(){
+
+			change.innerText=count;
+			count++;
+		});
+	</script>
+</body>
+</html>
